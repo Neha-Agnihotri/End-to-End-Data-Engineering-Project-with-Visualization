@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tcont" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="270" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Komal\AppData\Local\Temp\Engine_14452_43659fd006b2cc43b06dfff15a728300_\Engine_14452_07e231fbd14d754eb0120249d7e13ee6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Komal\AppData\Local\Temp\Engine_14452_43659fd006b2cc43b06dfff15a728300_\Engine_14452_c5fe047f3cb4a1449e3be76133cf73ca~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>TSV_File_Profiling_8</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="cd9e954c-9b46-4fdb-8860-0b3b4460b854" />
+      <Telemetry>
+        <PreviousWorkflowId value="49a7a470-cd0b-4832-a3e7-57b5cd985094" />
+        <OriginWorkflowId value="e1f79bf5-ab97-4d2b-b571-a12c9ed6e23d" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

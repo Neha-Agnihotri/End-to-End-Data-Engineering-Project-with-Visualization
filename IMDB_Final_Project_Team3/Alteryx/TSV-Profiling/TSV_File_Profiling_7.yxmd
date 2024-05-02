@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="270" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Komal\AppData\Local\Temp\Engine_2840_cbff65a7f53883499dced4675cec6539_\Engine_2840_c3d677c6ded2ba4d8872a7c8efb85900~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Komal\AppData\Local\Temp\Engine_2840_cbff65a7f53883499dced4675cec6539_\Engine_2840_ff6d62ff3b85d54896336c55f1f294ae~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="270" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="tconst" selected="True" />
+            <Field field="title" selected="True" />
+            <Field field="Date" selected="True" />
+            <Field field="Rank" selected="True" />
+            <Field field="Gross" selected="True" />
+            <Field field="%YD" selected="True" />
+            <Field field="%LW" selected="True" />
+            <Field field="Theaters" selected="True" />
+            <Field field="Per Theater" selected="True" />
+            <Field field="Total Gross" selected="True" />
+            <Field field="Days" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="9" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="String" />
+            <Field name="title" size="42" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="String" />
+            <Field name="Date" size="12" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="String" />
+            <Field name="Rank" size="2" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="String" />
+            <Field name="Gross" size="12" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="String" />
+            <Field name="%YD" size="4" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="String" />
+            <Field name="%LW" size="4" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="String" />
+            <Field name="Theaters" size="5" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="String" />
+            <Field name="Per Theater" size="7" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="String" />
+            <Field name="Total Gross" size="12" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="String" />
+            <Field name="Days" source="File: C:\Users\Komal\Desktop\DADABI\DADABI Final Project\Downloaded_Files\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Komal\AppData\Local\Temp\Engine_2840_cbff65a7f53883499dced4675cec6539_\Engine_2840_70a4f89870a3114884951917e01cbc73~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>TSV_File_Profiling_7</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="083cba5d-11eb-4ae2-8130-44c58b081134" />
+      <Telemetry>
+        <PreviousWorkflowId value="49a7a470-cd0b-4832-a3e7-57b5cd985094" />
+        <OriginWorkflowId value="e1f79bf5-ab97-4d2b-b571-a12c9ed6e23d" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
