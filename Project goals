@@ -1,0 +1,19 @@
+IMDB Movies
+There were 3 types of sources:
+1. MySQL (imdb_Tables_Backup.sqlLinks to an external site.) - Load this SQ file to your local Mysql database and use as source connection
+2. Revenue related TSV files can be downloaded from hereLinks to an external site.. Load these 9 Movie box office numbers
+3. SCD2 related data files in JSON format available hereLinks to an external site..
+There are 2 JSON
+file newdata_title_basics.jsonLinks to an external site. contains Movie titles changes
+file newdata_name_basics.jsonLinks to an external site. contains actor name changes (bonus question 25 points)
+Expected material for project submission
+Profiling data and analysis report (Inference) - Using Alteryx
+Mapping document (Excel sheet with source and target mapping) - ( Template Uploaded to OneDrive)
+Data modeling (refer to this linkLinks to an external site.for requirements)
+Expected to implement Movie Titles Dimension table as Type 2
+ETL Mappings - Using Talend - Make sure below are used for designing jobs
+-Metadata based connections
+-Contexts
+-Environments
+Power BI and Tableau dashboards published
+SQL scripts in notepad file / word or pdf document
